@@ -13,7 +13,7 @@ on:
 jobs:
     build:
         name: build
-        runs-on: ubunly-latest
+        runs-on: ubuntu-latest
         steps:
         - run: |
            echo "🎉 The job was triggered by event: ${{ github.event_name }}"
